@@ -183,7 +183,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button variant="ghost" size="icon" asChild>
-            <Link href="/profile">
+            <Link href="/auth">
               <CircleUser className="h-5 w-5" />
               <span className="sr-only">Profile</span>
             </Link>

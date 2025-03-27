@@ -24,12 +24,6 @@ export function HeroSection() {
                   Explore Stores
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link href="/navigation">
-                  <MapPin className="mr-2 h-4 w-4" />
-                  AR Navigation
-                </Link>
-              </Button>
             </div>
             <div className="flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1">
